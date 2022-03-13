@@ -12,13 +12,13 @@
 }
 
 .li1 {
-  color: rgb(255, 213, 47);
+  color: rgb(123, 255, 71);
   transition: 0.2s;
   cursor: pointer;
 }
 
 .li1:hover {
-  color: red;
+  color: rgb(47, 255, 220);
 }
 
 .nav-active {
@@ -28,7 +28,7 @@
   content: "";
   height: 4px;
   width: 0;
-  background: rgb(255, 213, 47);
+  background: rgb(47, 255, 220);
   position: absolute;
   border-radius: 10px;
   bottom: 0px;
@@ -48,10 +48,20 @@
   }
 }
 .btn {
-  color: rgb(255, 213, 47);
+  color: rgb(123, 255, 71);
   border-style: none;
   outline: none;
 }
 .btn:hover {
-  color: red;
+  color: rgb(47, 255, 220);
+}
+.div1 {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 46px;
+  background: linear-gradient(
+    180deg,
+    rgba(135, 135, 135, 1) 35%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }
